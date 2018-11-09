@@ -47,6 +47,26 @@ h3{
 	height: 17px;
 }
 
+.leftGif{
+	position: absolute;
+	width: 250px;
+	height: 175px;
+	left: 100px;
+	top: 220px;
+	box-shadow: -10px -10px 5px black;
+	opacity: 0.6;
+}
+
+.rightGif{
+	position: absolute;
+	width: 250px;
+	height: 120px;
+	right: 50px;
+	top: 335px;
+	box-shadow: -10px -10px 5px black;
+	opacity: 0.9;
+}
+
 footer{
 	position: relative;
 	display: flex;

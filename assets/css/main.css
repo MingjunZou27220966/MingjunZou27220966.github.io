@@ -33,10 +33,10 @@ h3{
 
 .middle-line{
 	position: absolute;
-	top: 165px;
+	top: 155px;
 	left: -50px;
 	width: 1495px;
-	height: 7px;
+	height: 17px;
 }
 
 .bottom-line{
@@ -44,7 +44,23 @@ h3{
 	top: 180px;
 	left: -50px;
 	width: 1495px;
-	height: 17px;
+	height: 7px;
+}
+
+.leftgif{
+	position: absolute;
+	left: 80px;
+	top: 200px;
+	width: 380px;
+	height: 185px;
+}
+
+.rightgif{
+	position: absolute;
+	right: 50px;
+	top: 300px;
+	width: 250px;
+	height: 160px;
 }
 
 

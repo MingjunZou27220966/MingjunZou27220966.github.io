@@ -2,7 +2,6 @@ body{
 	font-family: arial;
 	width: 1000px;
 	margin: auto;
-
 }
 
 .column-1{
@@ -12,21 +11,28 @@ body{
     border-right: 1px solid black;
 	padding-right: 50px;
 	margin-right: : 30px;
-
 }
 
 .column-2{
 	color: black;
 	width: 45%;
 	float: right;
-
 }
 
 header{
 	font-family: times;
-	font-size: 50px;
+	font-size: 45px;
 	text-align: center;
 }
+
+div header{
+	transition: all 0.6s;
+}
+
+div header:hover{
+	transform: scale(1.5);
+}
+/*To make the header change bigger when mouse is on it*/
 
 h5{
 	text-align: center;
@@ -35,7 +41,6 @@ h5{
 img{
 	margin: 20px;
 	height: 300px;
-
 }
 
 a{
@@ -43,6 +48,14 @@ a{
 	float: left;
 	background-color: black;
 	color: white;
-	margin: -85px;
-
+	margin: 2vw;
+	/*To make the link keep staying on the screen*/
 }
+
+
+@media (max-width: 600px) {
+  	body {
+    padding: 30px;
+	}
+  }
+ /* Mobile styles */

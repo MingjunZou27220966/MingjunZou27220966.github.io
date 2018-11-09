@@ -22,7 +22,7 @@ h3{
 	line-height: 2.3vw;
 }
 
-
+/*LINES*/
 .top-line{
 	position: absolute;
 	top: 20px;
@@ -46,6 +46,8 @@ h3{
 	height: 7px;
 }
 
+
+/*GIF*/
 .leftgif{
 	position: absolute;
 	left: 80px;
@@ -67,7 +69,7 @@ h3{
 }
 
 
-
+/*FOOTER*/
 footer{
 	position: relative;
 	display: flex;
@@ -83,7 +85,7 @@ footer{
 }
 
 
-/* Images show */
+/*MAKE CLICK WORK*/
 .AusNews.show{
 	display: block;
 }
@@ -117,7 +119,7 @@ footer{
 }
 
 
-/* Location Slider */
+/*Location Slider*/
 .slider{
 	position: relative;
 	font-size: 10px;
@@ -206,6 +208,7 @@ a.control_prev {
 	z-index: 100;
 }
 
+/*AUSTRALIA*/
 .australian{
 	width: 300px;
 	height: 500px;
@@ -233,7 +236,7 @@ a.control_prev {
 	margin-top: 220px;
 }
 
-
+/*CHINA*/
 .chinese{
 	width: 300px;
 	height: 500px;
@@ -262,7 +265,7 @@ a.control_prev {
 	margin-top: 240px;
 }
 
-
+/*KOREA*/
 .korean{
 	width: 300px;
 	height: 500px;
@@ -290,7 +293,7 @@ a.control_prev {
 	margin-top: 220px;
 }
 
-
+/*HONGKONG*/
 .hongkong{
 	width: 300px;
 	height: 500px;
@@ -317,3 +320,5 @@ a.control_prev {
 	left: 600px;
 	margin-top: 220px;
 }
+
+

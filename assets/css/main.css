@@ -5,6 +5,7 @@
 	position: absolute;
 }
 
+
 h1{
 	font-size: 8.5vw;
 	font-family: helvetica;
@@ -21,23 +22,10 @@ h3{
 	line-height: 2.3vw;
 }
 
-footer{
-	position: relative;
-	display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 10px;
-    top: 20px;
-    bottom: 20px;
-}
-
-.home{
-	cursor: pointer;
-}
 
 .top-line{
 	position: absolute;
-	top: 25px;
+	top: 20px;
 	width: 1445px;
 	height: 7px;
 
@@ -57,6 +45,20 @@ footer{
 	left: -50px;
 	width: 1495px;
 	height: 17px;
+}
+
+footer{
+	position: relative;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+.home{
+	cursor: pointer;
 }
 
 
@@ -96,11 +98,11 @@ footer{
 
 /* Location Slider */
 .slider{
-	position: absolute;
+	position: relative;
 	font-size: 10px;
 	top: 250px;
     display: flex;
-    transform: translate(190%, 10%);
+    transform: translate(0%, 20%);
     text-align: center;
   	overflow: hidden;
   	margin: 20px auto 0 auto;
@@ -178,7 +180,7 @@ a.control_prev {
 	width: 1000px;
 	height: 360px;
 	position: relative;
-	margin-top: 400px;
+	margin-top: 300px;
 	margin-left: 200px;
 	z-index: 100;
 }
